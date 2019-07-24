@@ -15,7 +15,7 @@ class ControladorUsuarios
     public static function actualizarPalabraSecreta()
     {
         $datos = json_decode(file_get_contents("php://input"));
-        return json(ModeloUsuarios::actualizarPalabraSecreta($datos->id, $datos->palabraSecretaActual));
+        return json(ModeloUsuarios::actualizarPalabraSecreta($datos->id, $datos->palabraSecretaActual, $datos->palabraSecretaNueva));
     }
 
     public static function agregar()
