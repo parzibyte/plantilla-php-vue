@@ -9,7 +9,7 @@ Plantilla simple que no utiliza webpack ni frameworks de terceros en el lado del
  - Twig se utiliza únicamente en las vistas
  - Soporte para sesión
  - Estilos de Bootstrap combinados con Vue
-   Iconos de FontAwesome
+ - Iconos de FontAwesome
 
 # Forma de uso
 Clona el proyecto y ejecuta:
